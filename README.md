@@ -1,4 +1,4 @@
-# Book Store Admin Portal
+# Shirley's Sandwiches
 
 This is an activity for FSWD Lesson 5.7.4- Syntactic Sugar.
 
