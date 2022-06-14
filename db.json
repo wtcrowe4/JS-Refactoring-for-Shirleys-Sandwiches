@@ -2,15 +2,27 @@
   "cart": [
     {
       "id": 1,
-      "name": "Avery's Sandwich",
+      "name": "Thomas Crowe",
       "bread": "Sourdough",
       "ingredients": [
         "Cheddar Cheese",
         "Mayo",
+        "Lettuce",
+        "Tomatoes",
+        "Parmesan Cheese"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "My MF Sandwich",
+      "bread": "White",
+      "ingredients": [
         "Ham",
         "Bacon",
         "Lettuce",
-        "Tomatoes"
+        "Onions",
+        "American Cheese*",
+        "Pepper"
       ]
     }
   ],

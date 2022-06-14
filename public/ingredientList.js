@@ -19,6 +19,8 @@ const ingredientList = {
 
     // Creates a DIV to display a single ingredient
     createIngredientCard(ingredient) {
+        const { imageURL, name, calories, description } = ingredient;
+
         const ingredientCard = document.createElement('div');
         ingredientCard.className = 'card'
 
@@ -27,12 +29,12 @@ const ingredientList = {
         <div class="card-body">
             <div class="row g-0">
                 <div class="col-sm-4">
-                    <img src="${ingredient.imageURL}" alt="${ingredient.name}" style="width: 100%">
+                    <img src="${imageURL}" alt="${name}" style="width: 100%">
                 </div>
                 <div class="col-sm-8">
-                    <h5 class="card-title">${ingredient.name}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">${ingredient.calories} Calories</h6>
-                    <p class="card-text">${ingredient.description}</p>
+                    <h5 class="card-title">${name}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">${calories} Calories</h6>
+                    <p class="card-text">${description}</p>
                     ${sandwichHasIngredient ? `
                         <button class="btn btn-danger toggle-button">Remove</button>
                     ` : `
